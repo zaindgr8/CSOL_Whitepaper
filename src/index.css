@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.bg-cta-gradient {
+ background: linear-gradient(
+    0.25turn,
+    #F91F9F,
+    #1D0738
+);
+  border-radius: 0px 0px 0px 70px;
+}
+
+.background-img {
+  background-image: url('./assets/bg-pattern-intro-desktop.svg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 3100px;
+  height: 3100px;
+  overflow: hidden;
+  margin-left: 900px;
+  margin-bottom: 40px;
+}
+
+.margin-bottom {
+  margin-bottom: 350px;
+}
+
+
+.button-cta-gradient {
+  background: linear-gradient(
+    0.25turn,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+}
+
+.bg-body-gradient {
+background: linear-gradient(0.25turn, #1C0738, #1C214F);
+  border-radius: 0px 70px 0px 70px;
+}
+
+.rounded-borders {
+  border-radius: 0px 70px 0px 70px;
+}
+
+.dropdown-background {
+  background-color: white;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  margin-left: 0px;
+  border-left-width: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.dropdown-background-mobile {
+  background-color: rgba(192, 199, 204, 0.226);
+  border-radius: 5px;
+  width: 250px;
+  height: auto;
+  margin-left: 0px;
+  border-left-width: 0px;
+  padding: 15px 45px 15px 45px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .background-img {
+    background-image: url('./assets/bg-pattern-intro-desktop.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3100px;
+    height: 3100px;
+    overflow: hidden;
+    margin-left: 1000px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .background-img {
+    background-image: url('./assets/bg-pattern-intro-desktop.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3100px;
+    height: 3100px;
+    overflow: hidden;
+    margin-left: 1100px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .background-img {
+    background-image: url('./assets/bg-pattern-intro-desktop.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3100px;
+    height: 3100px;
+    overflow: hidden;
+    margin-left: 1200px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 887px) {
+  .background-img {
+    background-image: url('./assets/bg-pattern-intro-desktop.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3100px;
+    height: 3100px;
+    overflow: hidden;
+    margin-left: 1300px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .background-img {
+    background-image: url('./assets/bg-pattern-intro-desktop.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3100px;
+    height: 3100px;
+    overflow: hidden;
+    margin-left: 1400px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .bg-cta-gradient {
+    background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0px 0px 0px 70px;
+  }
+
+  .background-img {
+    background-image: url('./assets/bg-pattern-intro-mobile.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1300px;
+    height: 1300px;
+    overflow: hidden;
+    margin-left: 200px;
+    margin-top: 250px;
+  }
+
+  .hamburger-menu {
+    padding-left: 0 !important;
+  }
+
+  .fix-bg-img {
+    border-radius: 0px 0px 0px 70px;
+  }
+
+  .mobile-font-change {
+    font-size: 35px;
+    font-weight: medium;
+  }
+
+  .mobile-height-change {
+    height: 550px !important;
+  }
+
+  .mobile-margin-change {
+    margin-bottom: 150px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 450px;
+  }
+
+  .cta-mobile-change {
+    margin-top: 50px;
+  }
+
+  .mobile-circle-image {
+    width: 800px !important;
+    height: 700px !important;
+    bottom: 300px;
+  }
+
+  .bg-body-gradient {
+    background: linear-gradient( hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    border-radius: 0px 70px 0px 70px;
+  }
+}
+
