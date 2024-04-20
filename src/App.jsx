@@ -21,7 +21,7 @@ const App = () => (
           className={`margin-bottom top-px absolute z-[2] ${styles.boxWidth}`}
         ></div>
 
-        <div className={`z-[0] mt-5 cta-mobile-change ${styles.boxWidth}`}>
+        <div className={`z-[0]  cta-mobile-change ${styles.boxWidth}`}>
           <CTA />
         </div>
       </div>

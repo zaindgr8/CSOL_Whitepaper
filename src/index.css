@@ -146,12 +146,15 @@ background: linear-gradient(0.25turn, #1C0738, #1C214F);
 
 @media screen and (max-width: 760px) {
   .bg-cta-gradient {
-    background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    border-radius: 0px 0px 0px 70px;
-  }
+ background: linear-gradient(
+    0.25turn,
+    #F91F9F,
+    #1D0738
+);
+  border-radius: 0px 0px 0px 70px;
+}
 
   .background-img {
-    background-image: url('./assets/bg-pattern-intro-mobile.svg') !important;
     background-repeat: no-repeat;
     background-size: contain;
     width: 1300px;
