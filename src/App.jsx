@@ -6,6 +6,8 @@ import {
   BodyMiddle,
 } from './components';
 import CTAA from "./components/CTA1"
+import Pie from "./assets/pie.png"
+import Footer from "./components/Footer1"
 
 const App = () => (
   <div className="w-full overflow-hidden">
@@ -18,6 +20,7 @@ const App = () => (
         <div
           className={`margin-bottom top-px absolute z-[2] ${styles.boxWidth}`}
         ></div>
+
         <div className={`z-[0] mt-5 cta-mobile-change ${styles.boxWidth}`}>
           <CTA />
         </div>
@@ -25,7 +28,7 @@ const App = () => (
     </div>
 
     {/* body sections  */}
-    <div className={`${styles.flexStart} mobile-margin-change`}>
+    <div className={`${styles.flexStart} mobile-margin-change px-16`}>
       <div className={`${styles.boxWidth}`}>
         <BodyTop />
       </div>
@@ -56,6 +59,12 @@ const App = () => (
         </div>
       </div>
     </div>
+    <div className="flex items-center justify-center">
+
+        <img width={550} src={Pie} />
+
+    </div>
+    <Footer/>
   </div>
 );
 export default App;

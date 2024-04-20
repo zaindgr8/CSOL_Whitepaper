@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { bgPatternCircles, illustrationPhones } from '../assets';
-import Logo from "../assets/csol2.png"
+import Logo from "../assets/mission.png"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,7 +14,6 @@ const BodyMiddle = () => {
       {/* phone image  */}
       <div className="z-10">
         <img
-          data-aos="fade"
           className="z-10 absolute top-[-50%] md:top-[-30%] left-0 sm:left-[150px] md:left-0"
           src={Logo}
         />
@@ -23,11 +22,12 @@ const BodyMiddle = () => {
       {/* background image and content  */}
       <div className="relative flex h-[550px] md:h-[350px] bg-body-gradient overflow-hidden">
         {/* background image  */}
-        <div className="h-[450px] rounded-borders">
-          <img
+
+        <div className="rounded-borders relative h-[1000px] w-[950px] md:right-[130px] bottom-[570px]">
+          {/* <img
             className="relative h-[1000px] w-[950px] md:right-[130px] bottom-[570px] mobile-circle-image"
             src={bgPatternCircles}
-          />
+          /> */}
         </div>
 
         {/* body content  */}
@@ -46,10 +46,11 @@ const BodyMiddle = () => {
             <br />
             We are committed to harnessing the power of cutting-edge
             technologies such as blockchain and artificial intelligence (AI),
-            specially trained in the intricacies of pet care. 
-            <br /><br/>
-            Through this approach, we strive to simplify the
-            complexities of pet care while making it accessible and affordable.
+            specially trained in the intricacies of pet care.
+            <br />
+            <br />
+            Through this approach, we strive to simplify the complexities of pet
+            care while making it accessible and affordable.
           </p>
         </div>
       </div>

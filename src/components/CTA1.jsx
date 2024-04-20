@@ -1,8 +1,9 @@
 import React from "react";
+import Pie from "../assets/pie.png"
 
 const CTA = () => {
   return (
-    <div className="flex-col justify-center text-center">
+    <div className="flex-col flex justify-center text-center">
       <h1 className="mobile-font-change flex justify-center font-normal text-white text-[50px]">
         😼 Tokenomics
       </h1>

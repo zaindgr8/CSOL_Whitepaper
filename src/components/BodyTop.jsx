@@ -1,6 +1,6 @@
 import React, {useEffect } from 'react';
 import { illustrationEditorDesktop, illustrationEditorMobile } from '../assets';
-import Logo from "../assets/csol2.png"
+import Logo from "../assets/team.png"
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -12,18 +12,16 @@ const BodyTop = () => {
   }, []);
 
   return (
-    <div className="w-full mb-16">
-      <h2 className="text-center mt-20 md:mt-36 text-[30px] text-headingColor font-medium">
+    <div className="w-full mt-5">
+      <h2 className="text-center text-[30px] text-headingColor font-medium">
         Team Vision
       </h2>
-      <div
-        className="flex flex-col-reverse px-6 mx-auto
-      space-y-0 md:flex-row "
-      >
+      <div className="flex flex-col-reverse px-6 mx-auto space-y-0 md:flex-row ">
         {/* left side items */}
-        <div data-aos="fade-right" className="mt-10 md:mt-32 mb-32 md:w-1/2">
+        <div data-aos="fade-right" className=" md:w-1/2">
           <h3 className="md:mt-20 text-headingColor font-medium text-[25px] text-center md:text-left">
-            The Memecoin Landscape: Cats vs. Dogs
+            The Memecoin Landscape:
+            <br /> Cats vs. Dogs
           </h3>
           <p className="text-bodyColor text-[15px] font-light mt-2 items-center text-center sm:text-left">
             In the world of memecoins, a narrative unfolds: cats rebel against
@@ -34,7 +32,8 @@ const BodyTop = () => {
           </p>
 
           <h3 className="mt-10 text-headingColor font-medium text-[25px] text-center md:text-left">
-            CattySol: Symbolic Leader and Potential Revolutionary
+            CattySol: Symbolic Leader
+            <br /> & Potential Revolutionary
           </h3>
           <p className="text-bodyColor text-[15px] font-light mt-2 items-center text-center sm:text-left">
             CattySol symbolizes felines, rallying support for the uprising.
@@ -44,12 +43,9 @@ const BodyTop = () => {
           </p>
         </div>
         {/* right side picture */}
-        <div className="w-full h-full relative top-0 sm:top-2 mb-32 lg:bottom-9 xl:bottom-0">
+        <div className="w-full h-full relative top-0 sm:top-2 mb-32 lg:bottom-9 xl:bottom-0 mr-16">
           <picture className="">
-            <source
-              media="(min-width:650px)"
-              srcset={Logo}
-            ></source>
+            <source media="(min-width:650px)" srcset={Logo}></source>
             <img
               className="mt-5 lg:mt-0 xl:mt-0 md:ml-80 lg:ml-[450px]"
               src={Logo}
